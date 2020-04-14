@@ -11,6 +11,10 @@
   <a href="#rocket-detalhes-extras">Detalhes Extras</a>
 </p>
 
+<p align="center">
+  Feito com :purple_heart: by [gabriel-fz](https://github.com/gabriel-fz)
+</p>
+
 ## :rocket: Sobre o desafio
 
 Nos links abaixo estão os repositórios das 4 etapas que compõem o desafio:
@@ -38,11 +42,12 @@ Para a resolução do desafio final, foram utilizadas as seguintes tecnologias:
 - [Redux](https://redux.js.org/)
 - [Styled-Components](https://styled-components.com/)
 - [Date-Fns](https://date-fns.org/)
-- [Unform](https://unform.dev/)
+- [Unform](https://unform.dev/)(1.0)
+- [React Select](https://react-select.com/home)
+- [React-Navigation](https://reactnavigation.org/docs/4.x/getting-started)(4.x)
+- [Bcryptjs](https://github.com/dcodeIO/bcrypt.js)
 - [Reactotron](https://github.com/infinitered/reactotron)
 - [Insomnia](https://insomnia.rest/)
-- [React Select](https://react-select.com/home)
-- [Bcryptjs](https://github.com/dcodeIO/bcrypt.js)
 
 ## :rocket: Instalação e execução
 
