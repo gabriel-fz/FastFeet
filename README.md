@@ -40,12 +40,16 @@ Para a resolução do desafio final, foram utilizadas as seguintes tecnologias:
 - [React](https://reactjs.org/)
 - [React-Native](https://reactnative.dev/)
 - [Redux](https://redux.js.org/)
+- [React Select](https://react-select.com/home)
+- [React-Navigation](https://reactnavigation.org/docs/4.x/getting-started) (4.x)
+- [React-Icons](https://react-icons.netlify.com/#/)
 - [Styled-Components](https://styled-components.com/)
 - [Date-Fns](https://date-fns.org/)
 - [Unform](https://unform.dev/) (1.0)
-- [React Select](https://react-select.com/home)
-- [React-Navigation](https://reactnavigation.org/docs/4.x/getting-started) (4.x)
 - [Bcryptjs](https://github.com/dcodeIO/bcrypt.js)
+- [Yup](https://github.com/jquense/yup)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
 - [Reactotron](https://github.com/infinitered/reactotron)
 - [Insomnia](https://insomnia.rest/)
 
@@ -57,7 +61,7 @@ A seguir, estão descritos todos os passos para a instalação e execução
 
 - [Node](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/pt-BR/docs/install#debian-stable)
-- [Git](https://git-scm.com/downloads)
+- [Git](https://git-scm.com/downloads) (Opcional)
 - [Insomnia](https://insomnia.rest/) (Opcional)
 - [Reactotron](https://github.com/infinitered/reactotron) (Opcional)
 
