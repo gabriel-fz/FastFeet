@@ -118,13 +118,13 @@ yarn dev
 
 Inicialmente, vá até a pasta web e execute o comando `yarn` para instalar as dependências do projeto.
 
-Após isso, basta executar o seguinte comando dentro da pasta web para iniciar o client web:
+Ainda dentro da pasta web, basta executar o seguinte comando para iniciar o client web:
 
 ```
 yarn start
 ```
 
-**Observação 1:** Para que o client web funcione corretamente, é necessário que o back-end também esteja rodando.
+**Observação 1:** Para que o client web funcione corretamente, é necessário que o back-end também esteja rodando. Para isso, utilize o comando `yarn dev` na pasta api como citado anteriormente.
 
 **Observação 2:** Após iniciar o client web, use os seguintes dados para fazer o login:
 
@@ -132,3 +132,29 @@ yarn start
 Email: admin@fastfeet.com
 Senha: 123456
 ```
+
+### Instalação e execução do Mobile
+
+Inicialmente, vá até a pasta mobile e execute o comando `yarn` para instalar as dependências do projeto.
+
+Para poder testar o aplicativo mobile, pode-se utilizar simuladores virtuais (como o Genymotion) ou celulares físicos via USB ou Wi-Fi. Para cada tipo de ambiente há uma descrição detalhada com os passos a serem seguidos nesta documenteção da RocketSeat: [Ambiente React Native](http://react-native.rocketseat.dev/)
+
+**Observação 1:** O aplicativo mobile foi desenvolvido para Android utilizando com base para testes um celular Motorola One Zoom com Android 9.
+
+**Observação 2:** Com base no ambiente onde o aplicativo mobile for testado, é necessário fazer umas configurações de links.
+
+Com o ambiente configurado corretamente, basta rodar o seguinte comando dentro da pasta mobile para instalar o aplicativo:
+
+```
+react-native run-android
+```
+
+Ainda dentro da pasta mobile, basta rodar o seguinte comando para iniciar o aplicativo:
+
+```
+react-native start
+```
+
+**Observação 3:** Para que o aplicativo mobile funcione corretamente, é necessário que o back-end também esteja rodando. Para isso, utilize o comando `yarn dev` na pasta api como citado anteriormente.
+
+**Observação 4:** Após iniciar o aplicativo mobile, use um ID de um entregador presente no banco de dados para poder fazer login.
