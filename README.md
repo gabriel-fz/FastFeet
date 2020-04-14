@@ -42,9 +42,9 @@ Para a resolução do desafio final, foram utilizadas as seguintes tecnologias:
 - [Redux](https://redux.js.org/)
 - [Styled-Components](https://styled-components.com/)
 - [Date-Fns](https://date-fns.org/)
-- [Unform](https://unform.dev/)(1.0)
+- [Unform](https://unform.dev/) (1.0)
 - [React Select](https://react-select.com/home)
-- [React-Navigation](https://reactnavigation.org/docs/4.x/getting-started)(4.x)
+- [React-Navigation](https://reactnavigation.org/docs/4.x/getting-started) (4.x)
 - [Bcryptjs](https://github.com/dcodeIO/bcrypt.js)
 - [Reactotron](https://github.com/infinitered/reactotron)
 - [Insomnia](https://insomnia.rest/)
@@ -58,8 +58,8 @@ A seguir, estão descritos todos os passos para a instalação e execução
 - [Node](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/pt-BR/docs/install#debian-stable)
 - [Git](https://git-scm.com/downloads)
-- [Insomnia](https://insomnia.rest/)(Opcional)
-- [Reactotron](https://github.com/infinitered/reactotron)
+- [Insomnia](https://insomnia.rest/) (Opcional)
+- [Reactotron](https://github.com/infinitered/reactotron) (Opcional)
 
 ### :octocat: Clonando o repositório
 
@@ -172,3 +172,9 @@ Os layouts propostos dos ambientes web e mobile estão presentes nos seguintes l
 
 - [Layout Web](https://xd.adobe.com/view/62e829fc-4f10-4ac8-70d2-d39b429d43ee-14d9/grid/)
 - [Layout Mobile](https://xd.adobe.com/view/a5d56d7d-c1d4-48a8-70ce-8b77f5f417a5-d3e4/grid/)
+
+Os repositórios particulares da api, da web e do mobile (que contém todas as branchs e históricos de commits) estão presentes nos seguintes links:
+
+- [Repositório da api](https://github.com/gabriel-fz/FastFeet-back-end)
+- [Repositório da web](https://github.com/gabriel-fz/FastFeet-front-end)
+- [Repositório do mobile](https://github.com/gabriel-fz/FastFeet-mobile)
