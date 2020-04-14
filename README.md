@@ -82,14 +82,18 @@ Inicialmente, vá até a pasta api e execute o comando `yarn` para instalar as d
 Para que a api funcione, é necessário ter em sua máquina o PostgreSQL. Para ser mais fiel ao modo como foi desenvolvido, recomenda-se que instale o PostgreSQL via Docker com o seguinte comando:
 
 ```
-$ docker run
+$ docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
 ```
+
+**Observação 1:** O nome database, a senha docker e a porta 5432 do comando acima podem ser alterados por outros de sua preferência.
 
 Em seguida, é necessário também instalar o Redis. Recomenda-se que instale o Redis via Docker com o seguinte comando:
 
 ```
-$ docker run
+$ docker run --name redisfastfeet -p 6379:6379 -d -t redis:alpine
 ```
+
+**Observação 2:** O nome redisfastfeet e a porta 6379 do comando acima podem ser alterados por outros de sua preferência.
 
 Com o PostgreSQL rodando, crie um banco de dados com o nome `fastfeet`.
 
@@ -152,7 +156,14 @@ Para poder testar o aplicativo mobile, pode-se utilizar simuladores virtuais (co
 
 **Observação 1:** O aplicativo mobile foi desenvolvido para **Android** utilizando com base para testes um celular Motorola One Zoom com Android 9.
 
-**Observação 2:** Com base no ambiente onde o aplicativo mobile for testado, é necessário fazer umas configurações de links.
+Após configurar o ambiente de sua escolha, é necessário configurar os arquivos seguintes (dentro da pasta mobile) inserindo o `ip da sua máquina`:
+
+```
+Arquivo 1: src/services/api.js
+Arquivo 2: src/services/linkLocal.js
+```
+
+**Observação 2:** Com base no ambiente onde o aplicativo mobile for testado, é possível que `http://localhost:3333/` seja utilizado no lugar do ip.
 
 Com o ambiente configurado corretamente, basta rodar o seguinte comando dentro da pasta mobile para instalar o aplicativo:
 
@@ -177,7 +188,7 @@ Os layouts propostos dos ambientes web e mobile estão presentes nos seguintes l
 - [Layout Web](https://xd.adobe.com/view/62e829fc-4f10-4ac8-70d2-d39b429d43ee-14d9/grid/)
 - [Layout Mobile](https://xd.adobe.com/view/a5d56d7d-c1d4-48a8-70ce-8b77f5f417a5-d3e4/grid/)
 
-Os repositórios particulares da api, da web e do mobile (que contém todas as branchs e históricos de commits) estão presentes nos seguintes links:
+Os repositórios particulares da api, da web e do mobile (que contém todas as branchs e históricos de commits do desenvolvimento) estão presentes nos seguintes links:
 
 - [Repositório da api](https://github.com/gabriel-fz/FastFeet-back-end)
 - [Repositório da web](https://github.com/gabriel-fz/FastFeet-front-end)
