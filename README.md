@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  Feito com :purple_heart: by <a href="https://github.com/gabriel-f" target="_blank">gabriel-fz</a>
+  Feito com :purple_heart: by <a href="https://github.com/gabriel-fz" target="_blank">gabriel-fz</a>
 </p>
 
 ## :rocket: Sobre o desafio
