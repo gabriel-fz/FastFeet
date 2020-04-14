@@ -5,12 +5,13 @@
 </h2>
 
 <p align="center">
-  <a href="#sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#tecnologias-utilizadas">Tecnologias utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#instalação-e-execução">Instalação e execução</a>
+  <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-tecnologias-utilizadas">Tecnologias utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-instalação-e-execução">Instalação e execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-detalhes-extras">Detalhes Extras</a>
 </p>
 
-## Sobre o desafio
+## :rocket: Sobre o desafio
 
 Nos links abaixo estão os repositórios das 4 etapas que compõem o desafio:
 
@@ -19,7 +20,7 @@ Nos links abaixo estão os repositórios das 4 etapas que compõem o desafio:
 - [Etapa 3](https://github.com/Rocketseat/bootcamp-gostack-desafio-09#desafio-09-front-end-do-meetapp)
 - [Etapa 4](https://github.com/Rocketseat/bootcamp-gostack-desafio-10#desafio-10-mobile-do-meetapp)
 
-## Tecnologias utilizadas
+## :rocket: Tecnologias utilizadas
 
 Para a resolução do desafio final, foram utilizadas as seguintes tecnologias:
 
@@ -30,6 +31,7 @@ Para a resolução do desafio final, foram utilizadas as seguintes tecnologias:
 - [Redis](https://redis.io/)
 - [Bee-Queue](https://github.com/bee-queue/bee-queue)
 - [Nodemailer](https://nodemailer.com/about/)
+- [Sequelize](https://sequelize.org/)
 - [Jest](https://jestjs.io/)
 - [React](https://reactjs.org/)
 - [React-Native](https://reactnative.dev/)
@@ -42,11 +44,11 @@ Para a resolução do desafio final, foram utilizadas as seguintes tecnologias:
 - [React Select](https://react-select.com/home)
 - [Bcryptjs](https://github.com/dcodeIO/bcrypt.js)
 
-## Instalação e execução
+## :rocket: Instalação e execução
 
 A seguir, estão descritos todos os passos para a instalação e execução
 
-### Pré-requisitos
+### :memo: Pré-requisitos
 
 - [Node](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/pt-BR/docs/install#debian-stable)
@@ -54,7 +56,7 @@ A seguir, estão descritos todos os passos para a instalação e execução
 - [Insomnia](https://insomnia.rest/)(Opcional)
 - [Reactotron](https://github.com/infinitered/reactotron)
 
-### Clonando o repositório
+### :octocat: Clonando o repositório
 
 Abra em sua máquina uma pasta de sua preferência. Em seguida, abra o terminar de sua máquina na respectiva pasta e rode o seguinte comando:
 
@@ -64,7 +66,7 @@ $ git clone https://github.com/gabriel-fz/FastFeet.git
 
 Ou então, baixe este repositório zipado.
 
-### Instalação e execução do Back-end
+### :bar_chart: Instalação e execução do Back-end
 
 Inicialmente, vá até a pasta api e execute o comando `yarn` para instalar as dependências do projeto.
 
@@ -114,7 +116,7 @@ Terminadas todas as configurações, basta executar o seguinte comando na pasta 
 yarn dev
 ```
 
-### Instalação e execução do Front-end
+### :computer: Instalação e execução do Front-end
 
 Inicialmente, vá até a pasta web e execute o comando `yarn` para instalar as dependências do projeto.
 
@@ -133,13 +135,13 @@ Email: admin@fastfeet.com
 Senha: 123456
 ```
 
-### Instalação e execução do Mobile
+### :iphone: Instalação e execução do Mobile
 
 Inicialmente, vá até a pasta mobile e execute o comando `yarn` para instalar as dependências do projeto.
 
 Para poder testar o aplicativo mobile, pode-se utilizar simuladores virtuais (como o Genymotion) ou celulares físicos via USB ou Wi-Fi. Para cada tipo de ambiente há uma descrição detalhada com os passos a serem seguidos nesta documenteção da RocketSeat: [Ambiente React Native](http://react-native.rocketseat.dev/)
 
-**Observação 1:** O aplicativo mobile foi desenvolvido para Android utilizando com base para testes um celular Motorola One Zoom com Android 9.
+**Observação 1:** O aplicativo mobile foi desenvolvido para **Android** utilizando com base para testes um celular Motorola One Zoom com Android 9.
 
 **Observação 2:** Com base no ambiente onde o aplicativo mobile for testado, é necessário fazer umas configurações de links.
 
@@ -158,3 +160,10 @@ react-native start
 **Observação 3:** Para que o aplicativo mobile funcione corretamente, é necessário que o back-end também esteja rodando. Para isso, utilize o comando `yarn dev` na pasta api como citado anteriormente.
 
 **Observação 4:** Após iniciar o aplicativo mobile, use um ID de um entregador presente no banco de dados para poder fazer login.
+
+## :rocket: Detalhes extras
+
+Os layouts propostos dos ambientes web e mobile estão presentes nos seguintes links:
+
+- [Layout Web](https://xd.adobe.com/view/62e829fc-4f10-4ac8-70d2-d39b429d43ee-14d9/grid/)
+- [Layout Mobile](https://xd.adobe.com/view/a5d56d7d-c1d4-48a8-70ce-8b77f5f417a5-d3e4/grid/)
