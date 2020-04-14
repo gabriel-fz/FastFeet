@@ -64,9 +64,9 @@ $ git clone https://github.com/gabriel-fz/FastFeet.git
 
 Ou então, baixe este repositório zipado.
 
-### Instalação e execução da API
+### Instalação e execução do Back-end
 
-Inicialmente, vá até a pasta da api e execute o comando `yarn` para instalar as dependências do projeto.
+Inicialmente, vá até a pasta api e execute o comando `yarn` para instalar as dependências do projeto.
 
 Para que a api funcione, é necessário ter em sua máquina o PostgreSQL. Para ser mais fiel ao modo como foi desenvolvido, recomenda-se que instale o PostgreSQL via Docker com o seguinte comando:
 
@@ -88,7 +88,7 @@ Para receber notificações de erros, crie uma conta no [Sentry](http://sentry.i
 
 Para configurar a api, siga os seguintes passos:
 
-1. Abra a pasta da api
+1. Abra a pasta api
 2. Copie todo o conteúdo do arquivo `.env.example`
 3. Crie um arquivo na raiz da pasta api com o nome `.env`
 4. Cole todo o conteúdo copiado do arquivo `.env.example` no arquivo `.env`
@@ -106,10 +106,29 @@ Com as tabelas criadas no banco de dados, execute o seguinte comando para inseri
 yarn sequelize db:seed:all
 ```
 
-Caso queira testar as rotas, vá até a pasta da api e importe o arquivo `Insomnia.json` no insomnia.
+Caso queira testar as rotas, vá até a pasta api e importe o arquivo `Insomnia.json` no insomnia.
 
-Terminadas todas as configurações, basta executar o seguinte comando na pasta da api para iniciar o servidor:
+Terminadas todas as configurações, basta executar o seguinte comando na pasta api para iniciar o servidor:
 
 ```
 yarn dev
+```
+
+### Instalação e execução do Front-end
+
+Inicialmente, vá até a pasta web e execute o comando `yarn` para instalar as dependências do projeto.
+
+Após isso, basta executar o seguinte comando dentro da pasta web para iniciar o client web:
+
+```
+yarn start
+```
+
+**Observação 1:** Para que o client web funcione corretamente, é necessário que o back-end também esteja rodando.
+
+**Observação 2:** Após iniciar o client web, use os seguintes dados para fazer o login:
+
+```
+Email: admin@fastfeet.com
+Senha: 123456
 ```
