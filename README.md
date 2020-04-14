@@ -190,6 +190,6 @@ Os layouts propostos dos ambientes web e mobile estão presentes nos seguintes l
 
 Os repositórios particulares do backend, do frontend e do mobile (que contém todas as branchs e históricos de commits do desenvolvimento) estão presentes nos seguintes links:
 
-- [Repositório da api](https://github.com/gabriel-fz/FastFeet-back-end)
+- [Repositório do backend](https://github.com/gabriel-fz/FastFeet-back-end)
 - [Repositório do frontend](https://github.com/gabriel-fz/FastFeet-front-end)
 - [Repositório do mobile](https://github.com/gabriel-fz/FastFeet-mobile)
